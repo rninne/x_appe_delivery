@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-29 05:04:34</sys_created_on>
         <sys_id>4e4e32fedb1c1d10f2f27d62f396192f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Run Server Side Script</sys_name>
         <sys_package display_value="Delivery Modernisation" source="x_appe_delivery">9c76dafadb981d10f2f27d62f3961962</sys_package>
         <sys_policy/>
         <sys_scope display_value="Delivery Modernisation">9c76dafadb981d10f2f27d62f3961962</sys_scope>
         <sys_update_name>sys_atf_step_4e4e32fedb1c1d10f2f27d62f396192f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-29 05:05:06</sys_updated_on>
+        <sys_updated_on>2022-06-29 06:17:26</sys_updated_on>
         <table/>
         <test display_value="BrokenScript - PlusTwo">0a4e32fedb1c1d10f2f27d62f396192c</test>
         <timeout/>
@@ -36,9 +36,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-29 05:04:34</sys_created_on>
         <sys_id>4a4e32fedb1c1d10f2f27d62f3961930</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-29 05:05:06</sys_updated_on>
+        <sys_updated_on>2022-06-29 06:17:26</sys_updated_on>
         <value>// You can use this step to execute a variety of server-side javascript tests including&#13;
 // jasmine tests and custom assertions&#13;
 //&#13;
@@ -125,8 +125,8 @@
 (function(outputs, steps, stepResult, assertEqual) {&#13;
     var si = new x_appe_delivery.BrokenScript();&#13;
 	assertEqual({&#13;
-		name: "Should be 2",&#13;
-		shouldbe: 2,&#13;
+		name: "Should be banana",&#13;
+		shouldbe: 'banana',&#13;
 		value: si.plusTwo(0)&#13;
 	});&#13;
 })(outputs, steps, stepResult, assertEqual);&#13;
